@@ -1,0 +1,79 @@
+ html body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 17, 82);
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: 110066;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar h1{
+    color: white;
+    text-shadow: 2px 2px 2px #1C6EA4;
+}
+
+
+.calculator_inteface{
+    margin: 10vh auto;
+    width: 400px;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(42, 6, 101);
+    -webkit-box-shadow: 1px -1px 15px 5px rgba(0,0,0,0.61); 
+    box-shadow: 1px -1px 15px 5px rgba(0,0,0,0.61);
+}
+
+button{
+    padding: 30px;
+    font-size: 18px;
+    margin: 0.5rem;
+    width: 10px;
+    max-height: 20px;
+    border-radius: 10%;
+    font-weight: 300;
+    background-color: #032942;
+    color: aliceblue;
+    -webkit-box-shadow: 1px -1px 15px 5px rgba(0,0,0,0.28); 
+    box-shadow: 1px -1px 15px 5px rgba(0,0,0,0.28);
+
+}
+button:hover{
+    -webkit-box-shadow: 1px -1px 15px 5px rgba(0,0,0,0.45); 
+    box-shadow: 1px -1px 15px 5px rgba(0,0,0,0.45);
+}
+
+
+ #clear{
+    background-color: rgb(87, 7, 7);
+}
+
+#equal{
+    background-color: rgb(7, 69, 48);
+    width: 36%;
+}
+
+#Delete{
+    background-color: #011034;
+}
+
+input{
+    height: 60px;
+    width: 85%;
+    font-size: 35px;
+    font-weight: 400;
+    -webkit-border-radius: 9px;
+    -webkit-box-shadow: 1px -1px 15px 5px rgba(0,0,0,0.45); 
+    box-shadow: 1px -1px 15px 5px rgba(0,0,0,0.45);
+    border: 2px solid black;
+    border-radius: 9px;
+    text-align: right;
+    color: rgb(1, 1, 28);
+}
