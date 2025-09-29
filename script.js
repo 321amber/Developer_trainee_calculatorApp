@@ -91,6 +91,13 @@ function calculate(expression){
             numbers.splice(i+1,1);
             i--;
         }
+        else if(operators[i] === '%'){
+            if(nextNumber === 0) return "undefined";
+            operators.splice(i,1);
+            numbers[i] = prevNumber % nextNumber;
+            numbers.splice(i+1,1);
+            i--;
+        }
     }
     let results = numbers[0];
     
