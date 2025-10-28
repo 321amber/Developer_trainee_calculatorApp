@@ -2,9 +2,11 @@ name: Build and Push Docker Image
 
 on:
   push:
-    branches: [ developer ]
+    branches: 
+    - developer 
   pull_request:
-    branches: [ developer ]
+    branches: 
+    - developer 
 
 jobs:
   build:
